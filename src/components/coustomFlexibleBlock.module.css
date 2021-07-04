@@ -1,0 +1,29 @@
+.bodyBlock{
+    height: 400px;
+    max-width: 700px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.bodyBlock img{
+    height: 400px;
+
+}
+.regulator{
+    width: 100px;
+    max-width: 700px;
+    height: 10px;
+    background: #fff;
+    cursor: ns-resize;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    margin: 0 auto;
+
+}
